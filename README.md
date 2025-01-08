@@ -19,6 +19,9 @@ This is a simple web-based to-do application built with HTML, CSS, and JavaScrip
 * JavaScript: Implements interactive functionality and task management.
 * Docker: Packages the application and its dependencies into a container for easy deployment and portability.
 
+### Running as Non-Root User
+To enhance security, the container is configured to run the application as a non-root user. This ensures a safer environment when running the application.
+
 ## How to Run the Project with Docker
 
 ### Prerequisites
